@@ -6,6 +6,4 @@ function hostedOnDM()
 {return false;}
 function onPageLoad()
 {loadMozillaCSS('Six_Word_Memoirs_files/Six_Word_MemoirsMoz.css')
-adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');Widget.onload();fixAllIEPNGs('Media/transparent.gif');applyEffects()}
-function onPageUnload()
-{Widget.onunload();}
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');fixAllIEPNGs('Media/transparent.gif');applyEffects()}

@@ -6,6 +6,4 @@ function hostedOnDM()
 {return false;}
 function onPageLoad()
 {loadMozillaCSS('Poetry_files/PoetryMoz.css')
-adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');Widget.onload();fixAllIEPNGs('Media/transparent.gif');applyEffects()}
-function onPageUnload()
-{Widget.onunload();}
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');fixAllIEPNGs('Media/transparent.gif');applyEffects()}
