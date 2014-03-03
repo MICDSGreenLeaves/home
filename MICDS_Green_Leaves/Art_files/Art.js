@@ -6,4 +6,4 @@ function hostedOnDM()
 {return false;}
 function onPageLoad()
 {loadMozillaCSS('Art_files/ArtMoz.css')
-adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');fixAllIEPNGs('Media/transparent.gif');applyEffects()}
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');fixAllIEPNGs('Media/transparent.gif');applyEffects()}
