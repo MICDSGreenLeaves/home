@@ -8,6 +8,10 @@
 .style_External_630_50 {
     position: relative;
 }
+.style_SkipStroke_1 {
+    background: transparent;
+    opacity: 1.00;
+}
 .Header {
     color: rgb(167, 167, 167);
     font-family: 'Arial-BoldMT', 'Arial', sans-serif;
@@ -40,7 +44,15 @@
     background: transparent;
     opacity: 1.00;
 }
+.graphic_image_style_default_SkipStroke {
+    background: transparent;
+    opacity: 1.00;
+}
 .bumper {
+    font-size: 1px;
+    line-height: 1px;
+}
+.tinyText {
     font-size: 1px;
     line-height: 1px;
 }

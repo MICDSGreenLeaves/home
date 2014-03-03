@@ -1,9 +1,11 @@
 // Created by iWeb 3.0.4 local-build-20140303
 
-setTransparentGifURL('Media/transparent.gif');function hostedOnDM()
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_0:new IWEmptyStroke()});registry.applyEffects();}
+function hostedOnDM()
 {return false;}
 function onPageLoad()
 {loadMozillaCSS('Poetry_files/PoetryMoz.css')
-adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');Widget.onload();fixAllIEPNGs('Media/transparent.gif');performPostEffectsFixups()}
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');Widget.onload();fixAllIEPNGs('Media/transparent.gif');applyEffects()}
 function onPageUnload()
 {Widget.onunload();}
